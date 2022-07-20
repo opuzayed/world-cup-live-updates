@@ -52,9 +52,11 @@ p {
 }
 /* top section style end */
 
-/* middle section style start */
+/* match section style start */
 .container {
   margin-top: 80px;
+  display: grid;
+  grid-template-columns: 280px repeat(3, 1fr);
 }
 .match-info {
   width: 247px;
@@ -84,7 +86,7 @@ p {
   margin-top: 15px;
   font-weight: 600;
 }
-.group-style{
+.group-style {
   background-color: white;
   width: 217px;
   height: 55px;
@@ -92,7 +94,7 @@ p {
   margin-top: 25px;
   font-weight: 800;
 }
-.blog-style{
+.blog-style {
   background-color: indianred;
   width: 217px;
   height: 55px;
@@ -101,4 +103,51 @@ p {
   font-weight: 800;
   color: white;
 }
-/* middle section style end */
+/* match section style end */
+/* second side style start */
+.transfer {
+  width: 247px;
+  height: 290px;
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+.transfer-style img {
+  width: 247px;
+  height: 130px;
+}
+.transfer-button-style {
+  width: 100px;
+  height: 32px;
+  border-radius: 5px;
+  margin-top: 11px;
+  margin-left: 12px;
+}
+h4 {
+  font-size: 15px;
+  margin-top: 24px;
+  margin-left: 12px;
+  line-height: 20%;
+}
+.transfer-time {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.clock-style {
+  color: rgb(79, 78, 78);
+  border-radius: 5px;
+  font-size: 15px;
+}
+.fa-clock {
+  margin-right: 10px;
+}
+.message-style {
+  margin-left: 40px;
+  color: rgb(79, 78, 78);
+  border-radius: 5px;
+  font-size: 15px;
+}
+.fa-message {
+  margin-right: 10px;
+}
+/* second side style end */
