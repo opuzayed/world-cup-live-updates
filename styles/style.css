@@ -14,7 +14,7 @@ main {
 /* top section style */
 .top-section {
   background-color: black;
-  width: 1020px;
+  width: 1054px;
   height: 500px;
   border-radius: 30px;
   margin-top: 29px;
@@ -57,9 +57,23 @@ p {
   margin-top: 80px;
   display: grid;
   grid-template-columns: 25% repeat(3, 1fr);
+  gap: 15px;
 }
+/* ---------------------------------------- */
+/* .container_2 {
+  margin-left: 286px;
+} */
+.cardPart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15px;
+  margin-left: 286px;
+  /* grid-column-gap: 24px; */
+  gap: 15px;
+}
+/* ------------------------------------------- */
 .match-info {
-  width: 247px;
+  width: 259px;
   height: 247px;
   background-color: #161616;
   border-radius: 10px;
@@ -67,7 +81,10 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 15px;
+  /* margin-top: 15px; */
+  margin: 0 auto;
+  padding: 0 !important;
+  /* overflow: scroll; */
 }
 .upcoming-match {
   background-color: white;
@@ -151,3 +168,36 @@ h4 {
   margin-right: 10px;
 }
 /* right middle section style end */
+/* footer style start */
+footer {
+  background-color: #161616;
+  width: 1350px;
+  height: 300px;
+  margin-top: 100px;
+}
+.h3-style {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  width: 1000px;
+  margin-top: 22px;
+}
+.contact-style {
+  display: flex;
+  justify-content: center;
+  /* width:990px; */
+  color: #b9b9b9;
+  padding: 15px;
+}
+.contact-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 990px;
+  justify-content: space-evenly;
+}
+/* footer style end */
