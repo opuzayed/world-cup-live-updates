@@ -52,11 +52,11 @@ p {
 }
 /* top section style end */
 
-/* match section style start */
+/* left midle section style start */
 .container {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: 280px repeat(3, 1fr);
+  grid-template-columns: 25% repeat(3, 1fr);
 }
 .match-info {
   width: 247px;
@@ -103,8 +103,8 @@ p {
   font-weight: 800;
   color: white;
 }
-/* match section style end */
-/* second side style start */
+/* left middle section style end */
+/* right middle section style start */
 .transfer {
   width: 247px;
   height: 290px;
@@ -150,4 +150,4 @@ h4 {
 .fa-message {
   margin-right: 10px;
 }
-/* second side style end */
+/* right middle section style end */
