@@ -54,12 +54,51 @@ p {
 
 /* middle section style start */
 .container {
-  margin-top: 72px;
+  margin-top: 80px;
 }
 .match-info {
   width: 247px;
   height: 247px;
   background-color: #161616;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.upcoming-match {
+  background-color: white;
+  width: 217px;
+  height: 55px;
+  border-radius: 10px;
+}
+.upcoming-match a {
+  text-decoration: none;
+}
+#upcoming-match-style {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.group-style{
+  background-color: white;
+  width: 217px;
+  height: 55px;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-weight: 800;
+}
+.blog-style{
+  background-color: indianred;
+  width: 217px;
+  height: 55px;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-weight: 800;
+  color: white;
 }
 /* middle section style end */
