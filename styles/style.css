@@ -196,3 +196,54 @@ hr {
 }
 
 /* footer style end */
+
+/*---------------------------------
+     link Page style start 
+-----------------------------------*/
+.playing-country {
+  width: 247px;
+  height: 190px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.flags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.country-name {
+  text-align: center;
+}
+.date-style {
+  color: #4d4d4d;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20%;
+}
+.new-upcoming-match {
+  background-color: indianred;
+  width: 217px;
+  height: 55px;
+  border-radius: 10px;
+}
+.new-upcoming-match a {
+  text-decoration: none;
+}
+#new-upcoming-match-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.new-blog-style {
+  width: 217px;
+  height: 55px;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-weight: 800;
+  color: black;
+}
