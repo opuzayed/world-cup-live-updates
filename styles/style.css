@@ -26,13 +26,13 @@ main {
   width: 465px;
   height: 450px;
 }
-h1 {
+.top-title {
   color: #ffffff;
   font-size: 70px;
   font-weight: 700;
   line-height: 15%;
 }
-p {
+.latest-news {
   color: #ffffff;
   font-size: 14px;
   font-weight: 300;
@@ -59,19 +59,13 @@ p {
   grid-template-columns: 25% repeat(3, 1fr);
   gap: 15px;
 }
-/* ---------------------------------------- */
-/* .container_2 {
-  margin-left: 286px;
-} */
 .cardPart {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 15px;
   margin-left: 286px;
-  /* grid-column-gap: 24px; */
   gap: 15px;
 }
-/* ------------------------------------------- */
 .match-info {
   width: 259px;
   height: 247px;
@@ -81,10 +75,8 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* margin-top: 15px; */
   margin: 0 auto;
   padding: 0 !important;
-  /* overflow: scroll; */
 }
 .upcoming-match {
   background-color: white;
@@ -121,12 +113,13 @@ p {
   color: white;
 }
 /* left middle section style end */
+
 /* right middle section style start */
 .transfer {
   width: 247px;
   height: 290px;
   border-radius: 10px;
-  border: 1px solid blue;
+  border: 1px solid gray;
 }
 .transfer-style img {
   width: 247px;
@@ -140,7 +133,7 @@ p {
   margin-left: 12px;
 }
 h4 {
-  font-size: 15px;
+  font-size: 10px;
   margin-top: 24px;
   margin-left: 12px;
   line-height: 20%;
@@ -168,6 +161,7 @@ h4 {
   margin-right: 10px;
 }
 /* right middle section style end */
+
 /* footer style start */
 footer {
   background-color: #161616;
@@ -200,4 +194,5 @@ hr {
   width: 990px;
   justify-content: space-evenly;
 }
+
 /* footer style end */
