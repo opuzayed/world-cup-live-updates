@@ -1,6 +1,12 @@
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* common-style or utilities */
 body {
   font-family: "Poppins", sans-serif;
@@ -14,23 +20,28 @@ main {
 /* top section style */
 .top-section {
   background-color: black;
-  width: 1054px;
+  max-width: 1054px;
   height: 500px;
   border-radius: 30px;
   margin-top: 29px;
   display: flex;
+  flex-wrap: wrap;
 }
 .top-show {
   margin-top: 50px;
-  margin-left: 45px;
-  width: 465px;
+  padding-left: 45px;
+  width: 50%;
   height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .top-title {
   color: #ffffff;
   font-size: 70px;
   font-weight: 700;
-  line-height: 15%;
+  line-height: 1;
+  margin-bottom: 15px;
 }
 .latest-news {
   color: #ffffff;
@@ -48,7 +59,7 @@ main {
 .top-side-image img {
   margin-top: 25px;
   height: 475px;
-  width: 450px;
+  width: 100%;
 }
 /* top section style end */
 
@@ -177,7 +188,7 @@ footer {
 hr {
   border: 1px solid rgba(255, 255, 255, 0.1);
   align-items: center;
-  width: 1000px;
+  width: 100%;
   margin-top: 22px;
 }
 .contact-style {
@@ -198,7 +209,7 @@ hr {
 /* footer style end */
 
 /*---------------------------------
-     link Page style start 
+     link Page style start
 -----------------------------------*/
 .playing-country {
   width: 247px;
@@ -220,7 +231,7 @@ hr {
   color: #4d4d4d;
   font-size: 16px;
   text-align: center;
-  line-height: 20%;
+  line-height: 2;
 }
 .new-upcoming-match {
   background-color: indianred;
@@ -235,7 +246,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  color:white;
+  color: white;
   margin-top: 15px;
   font-weight: 600;
 }
@@ -246,4 +257,78 @@ hr {
   margin-top: 25px;
   font-weight: 800;
   color: black;
+}
+
+@media screen and (max-width: 1100px) {
+  .top-section {
+    width: 100%;
+  }
+
+  .top-title {
+    font-size: 45px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+
+  .top-side-image {
+    width: 50%;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-description,
+  .contact-style {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-description > div {
+    margin-bottom: 15px;
+  }
+
+  .cardPart {
+    margin-left: 0;
+  }
+  .cardPart {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .top-section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .top-title {
+    font-size: 50px;
+  }
+
+  .top-show {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .top-side-image {
+    width: 100%;
+  }
+
+  .button-style {
+    margin: 15px auto;
+  }
+
+  .container,
+  .cardPart {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
 }
